@@ -9,7 +9,7 @@ TabView user guide documentation: https://help.syncfusion.com/xamarin/tabbed-vie
 ## Creating the project
 Create a new BlankApp (Xamarin.Forms.Portable) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
 
-## Adding SfTabView in Xamarin.Forms
+### Adding SfTabView in Xamarin.Forms
 Add the required assembly references to the PCL and renderer projects as discussed in the Assembly deployment section.
 
 Import the control namespace as shown in the following code.
@@ -39,21 +39,21 @@ public MainPage()
     this.Content = tabView;  
 }  
 ```
-# Font icons in the header
+## Font icons in the header
 You can refer this link for getting the font icons. Add the font file to your application by using the following steps for each platform:
 
-## Adding font file for iOS
+### Adding font file for iOS
 
 *   Add the font family inside Resource folder iOS project.
 *   Add the font file with the following build action: BundleResource.
 *   Update the Info.plist file (fonts that are provided by application, UIAppFonts, or key).
-## Adding font file for Android
+### Adding font file for Android
 
 Add the font file to the Assets folder in the application project, and set the following build action: AndroidAsset.
 
-## Adding font file for UWP
+### Adding font file for UWP
 Add the font family inside the application project of UWP
-## Setting font file for font icons
+### Setting font file for font icons
 
 **[XAML]**
 ```
